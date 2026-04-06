@@ -9,8 +9,7 @@ public class quizPerguntasBiblicas {
         System.out.println("=========================================");
         System.out.println("===========|| QUIZ BÍBLICO ||============");
         System.out.println("=========================================");
-
-
+        //Cabeçalho do Quiz
         System.out.println(" ");
         System.out.println("------------------------------------------------------------------------");
         System.out.println("RESPONDA AS PERGUNTAS BÍBLICAS ABAIXO:");
