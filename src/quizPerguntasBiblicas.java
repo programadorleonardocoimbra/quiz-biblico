@@ -9,7 +9,9 @@ public class quizPerguntasBiblicas {
         System.out.println("=========================================");
         System.out.println("===========|| QUIZ BÍBLICO ||============");
         System.out.println("=========================================");
+
         //Cabeçalho do Quiz
+
         System.out.println(" ");
         System.out.println("------------------------------------------------------------------------");
         System.out.println("RESPONDA AS PERGUNTAS BÍBLICAS ABAIXO:");
@@ -24,6 +26,7 @@ public class quizPerguntasBiblicas {
         System.out.println("3) Davi");
         System.out.println("4) Absalão");
         System.out.println(" ");
+
         //Resposta
         System.out.print("Sua Resposta: ");
         var option1 = scanner.nextInt();
@@ -48,6 +51,7 @@ public class quizPerguntasBiblicas {
         System.out.println("3) Cajado de Arão, Maná e Tábuas dos Mandamentos");
         System.out.println("4) Cajado de Arão, Maná e papiros");
         System.out.println(" ");
+
         //Resposta
         System.out.print("Sua Resposta: ");
         var option2 = scanner.nextInt();
@@ -72,6 +76,7 @@ public class quizPerguntasBiblicas {
         System.out.println("3) 5 dias");
         System.out.println("4) 6 dias");
         System.out.println(" ");
+
         //Resposta
         System.out.print("Sua Resposta: ");
         var option3 = scanner.nextInt();
@@ -96,6 +101,7 @@ public class quizPerguntasBiblicas {
         System.out.println("3) Jonathas");
         System.out.println("4) Malaquias");
         System.out.println(" ");
+
         //Resposta
         System.out.print("Sua Resposta: ");
         var option4 = scanner.nextInt();
@@ -120,6 +126,7 @@ public class quizPerguntasBiblicas {
         System.out.println("3) 10");
         System.out.println("4) 11");
         System.out.println(" ");
+
         //Resposta
         System.out.print("Sua Resposta: ");
         var option5 = scanner.nextInt();
