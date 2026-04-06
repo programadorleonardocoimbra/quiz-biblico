@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class quizPerguntasBiblicas {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // metodo SCANNER
 
         System.out.println(" ");
         System.out.println("=========================================");
