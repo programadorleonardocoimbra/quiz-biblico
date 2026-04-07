@@ -30,18 +30,8 @@ public class quizPerguntasBiblicas {
         //Resposta
         System.out.print("Sua Resposta: ");
         var option1 = scanner.nextInt();
-        if (option1 == 2) {
-            System.out.println("------------------------------------------------------------------");
-            System.out.println("Sua resposta está CERTÍSSIMA! \\O// \\O// \\O// \\O// \\O// \\O// ");
-            System.out.println("------------------------------------------------------------------");
-            System.out.println(" ");
-        }   else {
-            System.out.println("----------------------------------------------------");
-            System.out.println("Sua resposta está ERRADA :( :( :( :( :( :( :( :( :( ");
-            System.out.println("Resposta Correta é a -> 2) ARÃO");
-            System.out.println("----------------------------------------------------");
-            System.out.println(" ");
-        }
+        System.out.println(" ");
+
         //--------------------------------------------------------------------------------------------
         // Pergunta 02
         System.out.println("PERGUNTA 02: O que tinha dentro da ARCA DA ALIANÇA?");
@@ -55,18 +45,8 @@ public class quizPerguntasBiblicas {
         //Resposta
         System.out.print("Sua Resposta: ");
         var option2 = scanner.nextInt();
-        if (option2 == 3) {
-            System.out.println("------------------------------------------------------------------");
-            System.out.println("Sua resposta está CERTÍSSIMA! \\O// \\O// \\O// \\O// \\O// \\O// ");
-            System.out.println("------------------------------------------------------------------");
-            System.out.println(" ");
-        }   else {
-            System.out.println("------------------------------------------------------------------------");
-            System.out.println("Sua resposta está ERRADA :( :( :( :( :( :( :( :( :( ");
-            System.out.println("Resposta Correta é a -> 3) Cajado de Arão, Maná e Tábuas dos Mandamentos");
-            System.out.println("------------------------------------------------------------------------");
-            System.out.println(" ");
-        }
+        System.out.println(" ");
+
         //--------------------------------------------------------------------------------------------
         // Pergunta 03
         System.out.println("PERGUNTA 03: Em quantos dias o mundo e tudo que contém nele foi CRIADO?");
@@ -80,18 +60,8 @@ public class quizPerguntasBiblicas {
         //Resposta
         System.out.print("Sua Resposta: ");
         var option3 = scanner.nextInt();
-        if (option3 == 4) {
-            System.out.println("------------------------------------------------------------------");
-            System.out.println("Sua resposta está CERTÍSSIMA! \\O// \\O// \\O// \\O// \\O// \\O// ");
-            System.out.println("------------------------------------------------------------------");
-            System.out.println(" ");
-        }   else {
-            System.out.println("------------------------------------------------------------------------");
-            System.out.println("Sua resposta está ERRADA :( :( :( :( :( :( :( :( :( ");
-            System.out.println("Resposta Correta é a -> 4) 6 dias");
-            System.out.println("------------------------------------------------------------------------");
-            System.out.println(" ");
-        }
+        System.out.println(" ");
+
         //--------------------------------------------------------------------------------------------
         // Pergunta 04
         System.out.println("PERGUNTA 04: Quem enfrentou o gigante GOLIAS vencendo-o com uma pedrada?");
@@ -105,18 +75,8 @@ public class quizPerguntasBiblicas {
         //Resposta
         System.out.print("Sua Resposta: ");
         var option4 = scanner.nextInt();
-        if (option4 == 1) {
-            System.out.println("------------------------------------------------------------------");
-            System.out.println("Sua resposta está CERTÍSSIMA! \\O// \\O// \\O// \\O// \\O// \\O// ");
-            System.out.println("------------------------------------------------------------------");
-            System.out.println(" ");
-        }   else {
-            System.out.println("------------------------------------------------------------------------");
-            System.out.println("Sua resposta está ERRADA :( :( :( :( :( :( :( :( :( ");
-            System.out.println("Resposta Correta é a -> 1) Davi");
-            System.out.println("------------------------------------------------------------------------");
-            System.out.println(" ");
-        }
+        System.out.println(" ");
+
         //--------------------------------------------------------------------------------------------
         // Pergunta 05
         System.out.println("PERGUNTA 05: Quantas pragas foram enviadas no EGITO por Deus?");
@@ -130,21 +90,40 @@ public class quizPerguntasBiblicas {
         //Resposta
         System.out.print("Sua Resposta: ");
         var option5 = scanner.nextInt();
-        if (option5 == 3) {
-            System.out.println("------------------------------------------------------------------");
-            System.out.println("Sua resposta está CERTÍSSIMA! \\O// \\O// \\O// \\O// \\O// \\O// ");
-            System.out.println("------------------------------------------------------------------");
-            System.out.println(" ");
-        }   else {
-            System.out.println("------------------------------------------------------------------------");
-            System.out.println("Sua resposta está ERRADA :( :( :( :( :( :( :( :( :( ");
-            System.out.println("Resposta Correta é a -> 4) 10");
-            System.out.println("------------------------------------------------------------------------");
-            System.out.println(" ");
-        }
+        System.out.println(" ");
 
-        System.out.println("OBRIGADO POR PARTICIPAR!");
-        System.out.println("Deus Abençoe");
+        // Resultados
+        System.out.println(" ");
+        System.out.println("--- RESULTADO FINAL ---");
+        System.out.println(" ");
+
+        if (option1 == 2) {
+            System.out.println("PERGUNTA 01 - CERTA RESPOSTA \\0// (2,0) pontos");
+        } else
+            System.out.println("PERGUNTA 01 ERRADA");
+
+        if (option2 == 3) {
+        } else
+            System.out.println("PERGUNTA 02 ERRADA");
+
+        if (option3 == 4) {
+            System.out.println("PERGUNTA 03 - CERTA RESPOSTA \\0// (2,0) pontos");
+        } else
+            System.out.println("PERGUNTA 03 ERRADA");
+
+        if (option4 == 1) {
+            System.out.println("PERGUNTA 04 - CERTA RESPOSTA \\0// (2,0) pontos");
+        } else
+            System.out.println("PERGUNTA 04 ERRADA");
+
+        if (option5 == 3) {
+            System.out.println("PERGUNTA 05 - CERTA RESPOSTA \\0// (2,0) pontos");
+        } else
+            System.out.println("PERGUNTA 05 ERRADA");
+
+
+
+
     }
 
 }
